@@ -17,7 +17,8 @@ class Usercard extends React.Component {
                 </div>
                 <div className='details'>
                     <p><i className="fas fa-id-badge" /> {user.login}</p>
-                    <p><i className="fas fa-location-arrow" /> {user.location}</p>
+                    {user.location === null ? '' : <p><i className="fas fa-location-arrow" /> {user.location}</p>}
+                    
                     <p><i className="fas fa-user-friends"/> {user.followers} | {user.following}</p>
                 </div>
                 <div className = 'center'>
