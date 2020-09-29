@@ -8,7 +8,7 @@ class Usercard extends React.Component {
             <div className='card'>
                 <div className='titleBar'>
                     <div className='name'>
-                        <h1>{user.name == undefined ? user.login : ''}{user.name}</h1>
+                        <h1>{user.name === undefined ? user.login : ''}{user.name}</h1>
                     </div>
                     <div className='profile'>
                         <img className='profileImg' src={user.avatar_url} alt={user.name} />
