@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(235, 235, 235);
+
+}
+p {
+    font-size: 1.2rem;
+    margin:5px;
+}
+.center {
+   width:100%;
+   align-items: center;
+   text-align: center;
+}
+a {
+    text-decoration: solid;
+    color:blue;
+}
+.cardContainer {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    box-shadow: black;
+}
+.card {
+    margin:12px;
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 25px;
+    padding:5px 15px;
+    width:40%;
+    min-width: 450px;
+    max-width: 600px;
+    box-shadow: 2px 3px 2px gray;
+}
+.titleBar {
+    display: flex;
+    margin-bottom: 12px;
+}
+.name {
+    width: 60%;
+    border-bottom: 1px solid black;
+}
+.profile {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileImg {
+    border-radius: 50%;
+    width:75px;
+    height:75px;
+}
+.details {
+    margin:15px 0px;
+    display:flex;
+    justify-content: space-evenly;
+}
